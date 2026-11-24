@@ -86,3 +86,4 @@ echo "| Functional Testing | ${{ needs.testing.result }} |" >>
 $GITHUB_STEP_SUMMARY
 echo "| Security Checks | ${{ needs.security-check.result }} |" >>
 $GITHUB_STEP_SUMMARY
+#trigger github actions
